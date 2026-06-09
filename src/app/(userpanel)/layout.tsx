@@ -1,3 +1,4 @@
+import Navbar from "@/layout/user-panel/Navbar";
 
 export default function UserLayout({
   children,
@@ -5,5 +6,7 @@ export default function UserLayout({
   children: React.ReactNode;
 }>) {
   return (
-<>{children}</>
+<>
+<Navbar/>
+{children}</>
   )}
